@@ -6,7 +6,12 @@
 nav{
     background-color: white;
 }
-
+.btn-floating{
+    background-color: #f7b617;
+}
+nav i.material-icons{
+    line-height: 40px;
+}
 .background{
     background-image: url("../assets/images/taxi.jpg");
     height: 80vh;
@@ -15,12 +20,30 @@ nav{
     background-repeat: no-repeat;
 
 }
+.card .card-title{
+    font-size: 28px;
+    font-weight: bolder;
+}
+.format-img-white-small{
+    width: 20%;
+}
 
 .format-rowvacio{
     height: 20vh;
 }
 
 .format-block-two{
+    background-color: #f7b617;
+}
+.format-block-three{
+   height: 100vh;
+}
+.btn{
+    color:black;
+    background-color: #ffffff;
+    font-weight: bolder;
+}
+.card-format{
     background-color: #f7b617;
 }
 
@@ -34,6 +57,11 @@ nav{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.opaque{
+    background-color: rgba(0,0,0,0.5);
+    height: 80vh;
+    align-content: center;
 }
 .page-footer{
     background-color:#2b2b2b;
@@ -52,4 +80,16 @@ nav{
     border-radius: 5%;
     padding:1em;
     font-size: 14px;
+}
+.maps{
+    padding:1em;
+    margin:0;
+}
+.btn-two{
+    background-color: #f7b617;;
+}
+
+/*VERSION ESCRITORIO*/
+nav ul a {
+    color:black;
 }

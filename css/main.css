@@ -40,7 +40,8 @@ nav i.material-icons{
     background-color: #f7b617;
 }
 .format-block-three{
-   height: 100vh;
+   height: auto;
+   padding: 2em;
 }
 .btn{
     color:black;
@@ -54,6 +55,7 @@ nav i.material-icons{
 .format-div-phone{
    border: 2px solid white;
    padding:0.5em;
+   margin: 2em;
 }
 .background-img2{
     background-image: url("../assets/images/conduce.jpg");
@@ -81,7 +83,7 @@ nav i.material-icons{
 .format-h6{
     border: 2px solid white;
     border-radius: 5%;
-    padding:1em;
+    padding:1.5em;
     font-size: 14px;
 }
 .maps{
@@ -115,4 +117,9 @@ nav ul a {
 
 #out-padding{
      padding: 0;
+ }
+
+ #format-map-desktop{
+     padding: 3em;
+     border:1px solid white;
  }

@@ -1,7 +1,11 @@
 /* Los estilos de tu proyecto */
+body{
+    box-sizing: border-box;
+}
 .left-logo{
  margin-left: 0%;
 }
+
 
 nav{
     background-color: white;
@@ -93,3 +97,8 @@ nav i.material-icons{
 nav ul a {
     color:black;
 }
+
+.format-div-phone-desktop{
+    width: 85%;
+    border: 2px solid white;
+ }

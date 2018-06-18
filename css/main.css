@@ -17,7 +17,7 @@ nav i.material-icons{
     line-height: 40px;
 }
 .background{
-    background-image: url("../assets/images/taxi.jpg");
+    background-image: url("../assets/images/image.png");
     height: 80vh;
     background-position: center;
     background-size: cover;
@@ -53,10 +53,9 @@ nav i.material-icons{
 
 .format-div-phone{
    border: 2px solid white;
-   margin:2em;
+   padding:0.5em;
 }
 .background-img2{
-    height: 80vh;
     background-image: url("../assets/images/conduce.jpg");
     background-position: center;
     background-size: cover;
@@ -64,8 +63,8 @@ nav i.material-icons{
 }
 .opaque{
     background-color: rgba(0,0,0,0.5);
-    height: 80vh;
     align-content: center;
+    height: 60vh;
 }
 .page-footer{
     background-color:#2b2b2b;
@@ -101,4 +100,19 @@ nav ul a {
 .format-div-phone-desktop{
     width: 85%;
     border: 2px solid white;
+    margin-bottom: 2em;
+ }
+
+ #format-hr-desktop{
+     margin-left:0;
+     margin-right: 0;
+     padding: 0;
+ }
+
+ .row{
+     margin:0;
+ }
+
+#out-padding{
+     padding: 0;
  }

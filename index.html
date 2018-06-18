@@ -37,7 +37,7 @@
            <div class="row format-rowvacio"> </div>
            <div class="row"> 
                 <div class="row">
-                        <div class="col offset-s2 s10">
+                        <div class="col offset-s2 s10 out-padding">
                           <div class="card card-format">
                             <div class="card-content white-text">
                               <span class="card-title">Comienza a viajar con <img class="format-img-white-small" src="assets/images/logoBlanco.png" alt="logo blanco"></span>
@@ -57,23 +57,25 @@
         <div class="col l12 background">
             <div class="row format-rowvacio"> </div>
             <div class="row">
-                <div class="col offset-l7 l5">
+                <div id="out-padding" class="col offset-l8 l4">
                     <div class="card card-format">
                         <div class="card-content white-text">
                             <span class="card-title">Disfruta del Viaje Eres dueño de tu tiempo</span>
-                            <span class="card-title">Viaja con   <img class="format-img-white-small" src="assets/images/logoBlanco.png" alt="logo blanco"></span>
+                            <span class="card-title white-text">Viaja con   <img class="format-img-white-small" src="assets/images/logoBlanco.png" alt="logo blanco"></span>
                         </div>
                     <div class="card-action">
                         <a class="waves-effect waves-light btn">Registrate</a>
                     </div>
-                    <hr><span>o bien</span>
+                    <div id="format-hr-desktop" class="row">
+                        <hr  class="col l4">
+                        <span class="col l4 center-align white-text">o bien</span>
+                        <hr  class="col l4">
+                    </div>
                     <div class="card-action">
                             <a class="waves-effect waves-light btn">Conviertete en conductor</a>
                         </div>
                     </div>
-                
                 </div>
-           
             </div>              
             <div class="row format-rowvacio"> </div>
          </div>
@@ -100,24 +102,24 @@
                     <h3 class="white-text">Descarga la Nueva App</h3>
                     <p class="white-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam pariatur, dolorem laboriosam quae vitae quibusdam modi labore rerum in. Non magni tempora voluptatibus repudiandae quam quibusdam inventore nulla cum corrupti.</p>
                     <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, provident? Non fugiat quo ad nemo error fuga nam in atque veritatis eum corrupti obcaecati ut repellendus perferendis hic, totam minus.</p>
-                </div>
-                  
-            </div>      
+                </div>  
+            </div>     
         </div>
     </section>
 
-     <!--SECCION CONDUCE CUANDO QUIERAS-->
+     <!--SECCION CONDUCE CUANDO QUIERAS MOBILE AND DESKTOP-->
     <section class="row background-img2" > 
-        <div class="col s12 opaque"><br><br><br><br>
+        <div class="col s12 l3 offset-l9 opaque"><br><br><br><br>
             <h5 class="white-text">Conduce cuando Quieras</h5>
             <p class="white-text">LabCar es una opcion flexible para alcanzar tus metas financieras</p>
             <a class="waves-effect waves-light btn white-text btn-two">Conviertete en Conductor</a>
         </div>
     </section>
+    <!--SECCION CONDUCE CUANDO QUIERAS DESKTOP-->
      <!--SECCION Tarifas-->
     <section class="row">
-        <div class="col s12 format-block-two format-block-three">
-            <div class="col s12">
+        <div class="col s12  l12 format-block-two format-block-three">
+            <div class="col s12 l6">
                 <h4 class="white-text">Tarifas</h4>
                 <h6 class="white-text">Consulta las Tarifas LabCar aqui:</h6><br>
                 <div class="row">
@@ -138,12 +140,13 @@
                 </div>
                 <div class="row">
                     <a class="waves-effect waves-light btn col s4 offset-s4">¡Trazar Ruta!</a>
-                </div>
-            <div class="row format-div-phone maps">
-                <img class="col s12 responsive-img" src="assets/images/maps.jpg" alt="ubicacion maps">
+                </div><br>
+            <div class="row format-div-phone  hide-on-large-only">
+                    <iframe class ="col s12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119452.57081222725!2d-103.4054543515042!3d20.673938323884368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b18cb52fd39b%3A0xd63d9302bf865750!2sGuadalajara%2C+Jal.!5e0!3m2!1ses-419!2smx!4v1529339930983" width="100%" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
-            </div>
-       </div>
+           </div>
+           <iframe class ="col l6 hide-on-small-only" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31567885.39702617!2d-102.21160622127202!3d15.020345103099816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84043a3b88685353%3A0xed64b4be6b099811!2zTcOpeGljbw!5e0!3m2!1ses-419!2smx!4v1529340512503" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
     </section>
     <footer class="page-footer">
         <div class="container">

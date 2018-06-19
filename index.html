@@ -20,13 +20,13 @@
         </div>
     </nav>
      <!-- Navegacion Desktop -->
-    <nav class="row hide-on-small-only">
+    <nav class="row hide-on-small-only format-nav-desktop">
             <div class="col l12 nav-wrapper">
               <a href="#" class="brand-logo"><img class="responsive-img" src="assets/images/logoForma.png" alt="logo"></a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#">Viaja</a></li>
-                <li><a href="#">Conduce</a></li>
-                <li><a href="#">Inicia Sesion</a></li>
+                <li class="format-menu-li"><a href="#">Viaja</a></li>
+                <li  class="format-menu-li"><a href="#">Conduce</a></li>
+                <li  class="format-menu-li"><a href="#">Inicia Sesion</a></li>
               </ul>
             </div>
     </nav>
@@ -37,17 +37,15 @@
            <div class="row format-rowvacio"> </div>
            <div class="row"> 
                 <div class="row">
-                        <div class="col offset-s2 s10 out-padding">
-                          <div class="card card-format">
-                            <div class="card-content white-text">
-                              <span class="card-title">Comienza a viajar con <img class="format-img-white-small" src="assets/images/logoBlanco.png" alt="logo blanco"></span>
-                            </div>
-                            <div class="card-action">
-                              <a class="waves-effect waves-light btn">Descarga el App</a>
-                            </div>
-                          </div>
+                    <div id="out-padding"  class="col offset-s2 s10 card card-format">
+                        <div class="card-content white-text">
+                            <span class="card-title">Comienza a viajar con <img class="format-img-white-small" src="assets/images/logoBlanco.png" alt="logo blanco"></span>
                         </div>
-                      </div>                 
+                        <div class="card-action">
+                            <a class="waves-effect waves-light btn">Descarga el App</a>
+                        </div>
+                    </div>
+                </div>                 
            </div>
            <div class="row format-rowvacio"> </div>
         </div>
@@ -91,17 +89,17 @@
                 <img class="col offset-s2 s8 responsive-img" src="assets/images/iPhone6Plus.png" alt="celular">   
             </div>      
         </div>
-        <h6 class="col s12 white-text" >Llega a tu destino aun mas rapido </h6>
+        <h5 class="col s12 white-text" >Llega a tu destino aun mas rapido </h5>
     </section>
      <!--SECCION LA NUEVA APP DESKTOP-->
      <section class="row format-block-two hide-on-small-only"><br>
         <div class="format-div-phone-desktop">
             <div class="row">
-                <img class="col l3 offset-l1 responsive-img" src="assets/images/iPhone6Plus.png" alt="celular">
-                <div class="col l5 offset-l1">
+                <img class="col l3 offset-l1 responsive-img format-img-iphone-desktop" src="assets/images/iPhone6Plus.png" alt="celular">
+                <div class="col l4 offset-l2">
                     <h3 class="white-text">Descarga la Nueva App</h3>
-                    <p class="white-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam pariatur, dolorem laboriosam quae vitae quibusdam modi labore rerum in. Non magni tempora voluptatibus repudiandae quam quibusdam inventore nulla cum corrupti.</p>
-                    <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, provident? Non fugiat quo ad nemo error fuga nam in atque veritatis eum corrupti obcaecati ut repellendus perferendis hic, totam minus.</p>
+                    <p class="white-text format-text-New">La version actualizada de LabCar esta llena de nuevas funciones para llegar a donde quieras aun mas facil y rapido.</p>
+                    <p class="white-text format-text-New">con solo tocas un boton, un auto llega justo a tu ubicacion.Subete y no te preocupes:tu conductor sabe exactamente a donde ir.</p>
                 </div>  
             </div>     
         </div>
@@ -110,12 +108,12 @@
      <!--SECCION CONDUCE CUANDO QUIERAS MOBILE AND DESKTOP-->
     <section class="row background-img2" > 
         <div class="col s12 l3 offset-l9 opaque"><br><br><br><br>
-            <h5 class="white-text">Conduce cuando Quieras</h5>
-            <p class="white-text">LabCar es una opcion flexible para alcanzar tus metas financieras</p>
+            <h4 class="white-text">Conduce cuando Quieras</h5>
+            <h5 class="white-text">LabCar es una opcion flexible para alcanzar tus metas financieras</h5>
             <a class="waves-effect waves-light btn white-text btn-two">Conviertete en Conductor</a>
         </div>
     </section>
-    <!--SECCION CONDUCE CUANDO QUIERAS DESKTOP-->
+    <!--SECCION CONDUCE CUANDO QUIERAS MOBILE AND DESKTOP-->
      <!--SECCION Tarifas-->
     <section class="row">
         <div class="col s12  l12 format-block-two format-block-three">
@@ -128,7 +126,7 @@
                     </div>
                     <div class="col s8 l5">
                         <h6 class="white-text format-h6 hide-on-large-only">Insurgentes centro, Cuauhtemoc, Ciudad de mexico</h6>
-                        <h6 class="white-text format-h6 hide-on-small-only">Ingrese su punto de partida</h6>
+                        <h6 class="white-text format-h6-desktop hide-on-small-only">Ingrese su punto de partida</h6>
                     </div>
                 </div>
                 <div class="row">
@@ -137,7 +135,7 @@
                     </div>
                     <div class="col s8 l5">                              
                         <h6 class="white-text format-h6 hide-on-large-only">Carolina, Ciudad de los Deportes, Ciudad de mexico</h6>
-                        <h6 class="white-text format-h6 hide-on-small-only">Ingrese su Destino</h6>    
+                        <h6 class="white-text format-h6-desktop hide-on-small-only">Ingrese su Destino</h6>    
                     </div>    
                 </div>
                 <div class="row">
@@ -147,9 +145,10 @@
                     <iframe class ="col s12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119452.57081222725!2d-103.4054543515042!3d20.673938323884368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b18cb52fd39b%3A0xd63d9302bf865750!2sGuadalajara%2C+Jal.!5e0!3m2!1ses-419!2smx!4v1529339930983" width="100%" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
            </div>
-           <iframe id="format-map-desktop" class ="col l6 hide-on-small-only" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31567885.39702617!2d-102.21160622127202!3d15.020345103099816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84043a3b88685353%3A0xed64b4be6b099811!2zTcOpeGljbw!5e0!3m2!1ses-419!2smx!4v1529340512503" width="100%" height="600px" frameborder="0" style="border:0" allowfullscreen></iframe>
+           <iframe id="format-map-desktop" class ="col l6 hide-on-small-only" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31567885.39702617!2d-102.21160622127202!3d15.020345103099816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84043a3b88685353%3A0xed64b4be6b099811!2zTcOpeGljbw!5e0!3m2!1ses-419!2smx!4v1529340512503" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
     </section>
+     <!--SECCION FOOTER MOBILE AND DESKTOP-->
     <footer class="page-footer">
         <div class="container">
           <div class="row">

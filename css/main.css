@@ -2,13 +2,16 @@
 body{
     box-sizing: border-box;
 }
-.left-logo{
- margin-left: 0%;
+.row{
+    margin:0;
 }
-
+.col .row{
+    margin-right:0;
+}
 
 nav{
     background-color: white;
+    height: 15vh;
 }
 .btn-floating{
     background-color: #f7b617;
@@ -86,10 +89,6 @@ nav i.material-icons{
     padding:1.5em;
     font-size: 14px;
 }
-.maps{
-    padding:1em;
-    margin:0;
-}
 .btn-two{
     background-color: #f7b617;;
 }
@@ -98,11 +97,29 @@ nav i.material-icons{
 nav ul a {
     color:black;
 }
-
+.format-nav-desktop{
+    padding: 2em;
+}
+.format-menu-li{
+    font-size: 20px;
+}
 .format-div-phone-desktop{
     width: 85%;
     border: 2px solid white;
     margin-bottom: 2em;
+ }
+ .format-img-iphone-desktop{
+     margin-top:2em;
+ }
+.format-h6-desktop{
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 5%;
+    padding:1em;
+}
+ .format-text-New{
+     text-align: justify;
+     font-size: 20px;
  }
 
  #format-hr-desktop{
@@ -110,15 +127,9 @@ nav ul a {
      margin-right: 0;
      padding: 0;
  }
-
- .row{
-     margin:0;
- }
-
 #out-padding{
      padding: 0;
  }
-
  #format-map-desktop{
      padding: 3em;
      border:1px solid white;

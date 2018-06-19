@@ -26,10 +26,36 @@
               <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li class="format-menu-li"><a href="#">Viaja</a></li>
                 <li  class="format-menu-li"><a href="#">Conduce</a></li>
-                <li  class="format-menu-li"><a href="#">Inicia Sesion</a></li>
+                <li  class="format-menu-li"><a class="waves-effect waves-light btn modal-trigger" href="#modal1">Inicia Sesion</a></li>
               </ul>
             </div>
     </nav>
+      <!--MODAL INICIAR SESION-->
+    <div id="modal1" class="modal">
+        <div class="modal-content">                   
+             <div class="row">
+                 <form class="col s12">
+                     <div class="row">
+                        <div class="input-field col s8">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="icon_prefix" type="text" class="validate">
+                        <label for="icon_prefix">User</label>
+                        </div>
+                    <div class="row">
+                       <div class="input-field col s8">
+                       <i class="material-icons prefix">phone</i>
+                       <input id="icon_telephone" type="tel" class="validate">
+                       <label for="icon_telephone">Password</label>
+                      </div>
+                   </div>
+                   </div>
+               </form>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancelar</a>
+        </div>
+    </div>
         
     <!--COMIENZA A VIAJAR / DESCARGA LA APP MOBILE-->
     <section class="row hide-on-large-only">
@@ -175,7 +201,7 @@
               <p class="grey-text text-lighten-4">Paises.</p>
               <p class="grey-text text-lighten-4">Seguridad.</p>
             </div>
-            <div class="col l3 s6 hide-on-small-only">
+            <div class="col l3 hide-on-small-only">
                 <p class="grey-text text-lighten-4">Oportunidades</p>
                 <p class="grey-text text-lighten-4">Nuestra Historia</p>
                 <p class="grey-text text-lighten-4">Api de LabCar</p>
@@ -194,13 +220,12 @@
                 </div>
             </div>
             <div class="col s6 hide-on-large-only">
-              <div><br>
                 <i class="fab fa-facebook-f"></i>
                 <i class="fab fa-twitter"></i>
                 <i class="fab fa-linkedin-in"></i>
                 <i class="fab fa-apple"></i>
                 <i class="fas fa-play"></i>
-              </div> <br>
+            
               <ul>
                 <li><a class="grey-text text-lighten-3" href="#!"><img class="responsive-img" src="assets/images/enBadgeWebGeneric.png" alt=""></a></li><br>
                 <li><a class="grey-text text-lighten-3" href="#!"><img class="responsive-img" src="assets/images/appstore.png" alt=""></a></li>
